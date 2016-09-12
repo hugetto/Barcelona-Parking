@@ -1,5 +1,5 @@
 # Barcelona-Parking
-Visualo studio C++ opencv free parking space detection
+Visual studio C++ opencv free parking space detection
 
 It also sends data to http://sentilo.diba.cat/ in order to update the state
 

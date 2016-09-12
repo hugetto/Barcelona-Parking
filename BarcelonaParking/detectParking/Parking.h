@@ -8,7 +8,7 @@
 
 using namespace std;
 //#define PARK_LAPLACIAN_TH 6.5  // Threshold value for the laplacian, to decide if the parking is occupied or not
-#define PARK_LAPLACIAN_TH 150
+#define PARK_LAPLACIAN_TH 9
 
 class Parking
 {

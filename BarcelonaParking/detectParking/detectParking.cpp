@@ -103,7 +103,8 @@ int main(int argc, char** argv)
 				cv::Mat dx;
 				cv::Sobel(roi, dx, CV_16S, 1, 0, 3);
 
-				delta = cv::mean(cv::abs(laplacian), park.getMask());
+				delta = cv::mean(cv::abs(dx), park.getMask());
+				//delta = cv::mean(cv::abs(laplacian), park.getMask());
 				park.setStatus(delta[0] < PARK_LAPLACIAN_TH);
 				/*if (park.getId() == 9)
 				{
