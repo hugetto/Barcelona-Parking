@@ -1,0 +1,16 @@
+{
+  "sensors": [
+    {
+      "sensor": "PK0001",
+      "description": "parking sensor",
+      "type": "wind",
+      "dataType": "number",
+      "component": "CAM-1",
+      "componentType": "meteo",
+      "componentDesc": "Test componente",
+      "publicAccess": "true",
+      "componentPublicAccess": "true",
+      "location": "41.378474 2.124657"
+    }
+  ]
+}
