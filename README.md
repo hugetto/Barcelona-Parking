@@ -8,5 +8,6 @@ https://github.com/eladj/detectParking
 
 # Requirements:
 OpenCV http://opencv.org/
+
 Curl https://curl.haxx.se/
 
